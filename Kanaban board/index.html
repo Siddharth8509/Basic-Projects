@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Kanban board</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap" rel="stylesheet">
+
+</head>
+<body>
+    <div class="navbar">
+        <h1>KanBan board</h1>
+    </div>
+
+    <div class="columns">
+
+        <div id="to-do" class="KanBan-column">
+            <h1>To do</h1>
+            <div class="items">
+                <p class="item" draggable="true">Learn React</p>
+                <p class="item" draggable="true">Learn React</p>
+            </div>
+        </div>
+
+        <div id="in-progress" class="KanBan-column">
+            <h1>In Progress</h1>
+        </div>
+
+        <div id="completed" class="KanBan-column">
+            <h1>completed</h1>
+        </div>
+
+        <div id="new-columns">
+
+        </div>
+
+    </div>
+
+    <button id="add-tsk-button">Add Task</button>
+
+    <script src="script.js"></script>
+</body>
+</html>
